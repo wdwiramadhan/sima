@@ -1,0 +1,61 @@
+.card.card-link a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+
+.bg-custom-hanada {
+    background-color: #044F67 !important;
+}
+.bg-custom-belizehole {
+    background-color:#2980b9 !important;
+}
+
+.text-belizehole {
+    color:#2980b9 !important;
+}
+
+.btn-primary.custom-btn {
+	background: #2980b9 !important;
+    border-color: #2980b9 !important; 
+}
+
+.nav-item.active.custom {
+	background: #044F67 !important;
+    border-color: #044F67 !important; 
+}
+.card.card-custom{
+    border-radius: 7px;
+}
+
+.custom-border-size{
+    border-radius:7px 7px 0 0 ;
+}
+
+.nav.nav-line.custom-border {
+
+    border-bottom: 0px;
+}
+
+.nav-color-primary.custom{
+    color: #044F67 !important; 
+}
+

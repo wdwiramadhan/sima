@@ -114,7 +114,7 @@ class Rencanakegiatan extends CI_Controller
       $this->load->view('rencanakegiatan/edit', $data);
       $this->load->view('templates/dashboard_footer');
     } else {
-      $id = $this->input->post('id');
+      $id = $this->uri->segment(4);
       $dataset = [
         'tahun_anggaran' => $this->input->post('tahun_anggaran'),
         'program' => $this->input->post('program'),

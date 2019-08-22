@@ -115,7 +115,7 @@ class Inventaris extends CI_Controller
             $this->load->view('inventaris/edit', $data);
             $this->load->view('templates/dashboard_footer');
         } else {
-            $id = $this->input->post('id');
+            $id = $this->uri->segment(3);
             $data = [
                 'tahun' => $this->input->post('tahun'),
                 'no_inventaris' => $this->input->post('no_inventaris'),

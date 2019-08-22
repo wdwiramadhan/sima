@@ -10,8 +10,7 @@
                             </div>
                         </div>
                         <div class="card-body">
-                            <form action="" method="post">
-                                <input type="hidden" name="id" value="<?= $inventaris['id'] ?>">
+                            <form action="<?= base_url('inventaris/edit/'). $inventaris['id'] ?>" method="post">
                                 <div class="form-group row">
                                     <label for="defaultSelect" class="col-sm-2 col-form-label">Tahun</label>
                                     <div class="col-sm-2">

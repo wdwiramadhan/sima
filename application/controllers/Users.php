@@ -99,7 +99,7 @@ class Users extends CI_Controller
             $this->load->view('users/edit', $data);
             $this->load->view('templates/dashboard_footer');
         } else {
-            $id = $this->input->post('id');
+            $id = $this->uri->segment(4);
             $data = [
                 'name' => $this->input->post('name'),
                 'email' => $this->input->post('email'),

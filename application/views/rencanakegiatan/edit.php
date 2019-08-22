@@ -11,7 +11,6 @@
                         </div>
                         <div class="card-body">
                             <?= form_open_multipart('kegiatan/rencanakegiatan/edit/' . $rencanakegiatan['id'] . '') ?>
-                            <input type="hidden" name="id" value="<?= $rencanakegiatan['id'] ?>">
                             <div class="form-group row">
                                 <label for="taSelect" class="col-sm-2 col-form-label">Tahun Anggaran</label>
                                 <div class="col-sm-4">

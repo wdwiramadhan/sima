@@ -10,8 +10,7 @@
                             </div>
                         </div>
                         <div class="card-body">
-                            <form action="" method="post">
-                                <input type="hidden" name="id" value="<?= $users['id'] ?>">
+                            <form action="<?= base_url('master/users/edit/').$users['id'] ?>" method="post">
                                 <div class="form-group row">
                                     <label for="nama" class="col-sm-2 col-form-label">Nama</label>
                                     <div class="col-sm-10">

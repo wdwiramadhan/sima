@@ -108,3 +108,14 @@ $route['kegiatan/laporankegiatan/get_data_laporankegiatan'] = 'laporankegiatan/g
 $route['kegiatan/laporankegiatan/add'] = 'laporankegiatan/add';
 $route['kegiatan/laporankegiatan/edit/(:num)'] = 'laporankegiatan/edit/$1';
 $route['kegiatan/laporankegiatan/delete/(:num)'] = 'laporankegiatan/delete/$1';
+
+$route['keuangan/rencanaanggaran'] = 'rencanaanggaran';
+$route['keuangan/rencanaanggaran/get_data_rencanaanggaran'] = 'rencanaanggaran/get_data_rencanaanggaran';
+$route['keuangan/rencanaanggaran/add'] = 'rencanaanggaran/add';
+$route['keuangan/rencanaanggaran/addp/(:any)'] = 'rencanaanggaran/addp/$1';
+$route['keuangan/rencanaanggaran/addb/(:any)'] = 'rencanaanggaran/addb/$1';
+$route['keuangan/rencanaanggaran/preview/(:any)'] = 'rencanaanggaran/preview/$1';
+$route['keuangan/rencanaanggaran/edit/(:any)'] = 'rencanaanggaran/edit/$1';
+$route['keuangan/rencanaanggaran/delete/(:any)'] = 'rencanaanggaran/delete/$1';
+$route['keuangan/rencanaanggaran/deletep/(:any)'] = 'rencanaanggaran/deletep/$1';
+$route['keuangan/rencanaanggaran/deleteb/(:any)'] = 'rencanaanggaran/deleteb/$1';

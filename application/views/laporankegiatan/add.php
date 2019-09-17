@@ -17,7 +17,7 @@
                                     <select class="form-control form-control" id="taSelect" name="tahun_anggaran" value="<?= set_value('tahun_anggaran') ?>">
                                         <option selected disabled hidden>Select</option>
                                         <?php foreach ($tahunanggaran as $ta) : ?>
-                                        <option value="<?= $ta['tahun'] ?>"><?= $ta['tahun'] ?></option>
+                                            <option value="<?= $ta['tahun'] ?>"><?= $ta['tahun'] ?></option>
                                         <?php endforeach; ?>
                                     </select>
                                     <?= form_error('tahun_anggaran', '<small class="text-danger pl-3">', '</small>') ?>
@@ -29,21 +29,16 @@
                                     <select class="form-control form-control" id="programSelect" name="program" value="<?= set_value('program') ?>">
                                         <option selected disabled hidden>Select</option>
                                         <?php foreach ($program as $prgm) : ?>
-                                        <option value="<?= $prgm['nama_program'] ?>"><?= $prgm['nama_program'] ?></option>
+                                            <option value="<?= $prgm['nama_program'] ?>"><?= $prgm['nama_program'] ?></option>
                                         <?php endforeach; ?>
                                     </select>
                                     <?= form_error('program', '<small class="text-danger pl-3">', '</small>') ?>
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label for="namaKegiatanSelect" class="col-sm-2 col-form-label">Nama Kegiatan</label>
-                                <div class="col-sm-4">
-                                    <select class="form-control form-control" id="namaKegiatanSelect" name="nama_kegiatan" value="<?= set_value('nama_kegiatan') ?>">
-                                        <option selected disabled hidden>Select</option>
-                                        <?php foreach ($rencanakegiatan as $rk) : ?>
-                                        <option value="<?= $rk['nama_kegiatan'] ?>"><?= $rk['nama_kegiatan'] ?></option>
-                                        <?php endforeach; ?>
-                                    </select>
+                                <label for="nama_kegiatan" class="col-sm-2 col-form-label">Nama kegiatan</label>
+                                <div class="col-sm-10">
+                                    <input type="nama_kegiatan" class="form-control" id="nama_kegiatan" name="nama_kegiatan" placeholder="Masukan nama kegiatan" value="<?= set_value('nama_kegiatan') ?>">
                                     <?= form_error('nama_kegiatan', '<small class="text-danger pl-3">', '</small>') ?>
                                 </div>
                             </div>

@@ -59,7 +59,6 @@ class Laporankegiatan extends CI_Controller
     $data['user'] = $this->user->getUserByEmail($email);
     $data['program'] = $this->program->getAllProgram();
     $data['tahunanggaran'] = $this->tahunanggaran->getAllTahunanggaran();
-    $data['rencanakegiatan'] = $this->rencanakegiatan->getAllRencanakegiatan();
     $this->form_validation->set_rules('tahun_anggaran', 'tahun anggaran', 'required');
     $this->form_validation->set_rules('program', 'program', 'required');
     $this->form_validation->set_rules('nama_kegiatan', 'nama kegiatan', 'required');
